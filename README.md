@@ -11,13 +11,13 @@ Lokai es una plataforma web desarrollada durante el 2026 para conectar usuarios 
 ## 🚀 Stack Tecnológico
 * **Frontend:** Next.js con Tailwind CSS para una interfaz reactiva y optimizada.
 * **Backend y Lógica:** JavaScript / TypeScript.
-* **Base de Datos:** PostgreSQL (Diseño de modelo relacional para la gestión de marcas, productos y ubicaciones).
-* **Integraciones:** API de Google Maps y sistemas de navegación nativos del dispositivo (como Google Maps o Waze).
+* **Base de Datos:** PostgreSQL (Gestión relacional de marcas, productos y geolocalización).
+* **Conectividad:** Integración de geoposicionamiento con aplicaciones de navegación nativas (Google Maps, Waze, Apple Maps).
 
 ## 🛠️ Funcionalidades Principales
-* **Geolocalización Interactiva:** Visualización de comercios cercanos en tiempo real.
-* **Búsqueda Eficiente:** Filtros avanzados para encontrar productos o marcas específicas en tiendas de la zona.
-* **Navegación:** Enlace directo con las aplicaciones de mapas predeterminadas del usuario para facilitar el traslado al local comercial.
+* **Localización Estratégica:** Búsqueda rápida de marcas y productos en comercios de la zona.
+* **Enrutamiento Inteligente:** La plataforma detecta la ubicación del comercio y permite al usuario abrir su aplicación de mapas preferida con un solo clic, facilitando la navegación en tiempo real hasta el local.
+* **Base de Datos Relacional:** Estructura optimizada en PostgreSQL para vincular marcas específicas con sus puntos de venta físicos.
 
 ## 🗄️ Arquitectura de Datos
 El sistema utiliza una base de datos PostgreSQL estructurada para manejar eficientemente la relación entre marcas, categorías de productos y las coordenadas geográficas precisas de cada punto de venta.
