@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: var(--font-lokai), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 76px;
+}
+
+.fuente-logo {
+    font-family: var(--font-lokai) !important;
+    font-weight: 900 !important;
+}
